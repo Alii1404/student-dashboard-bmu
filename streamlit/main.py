@@ -7,7 +7,7 @@ from services import calculate_grade, calculate_statistics
 
 st.set_page_config(
     page_title="Student Performance Dashboard",
-    page_icon=":mortar_board:",
+    page_icon="🎓",
     layout="wide"
 )
 
@@ -44,7 +44,7 @@ def display_students(students):
 
 
 def main():
-    st.title(":mortar_board: Student Performance Dashboard")
+    st.title("🎓 Student Performance Dashboard")
     st.write("Tələbə nəticələrinin idarə edilməsi sistemi")
 
     # Tələbə əlavə etmək
@@ -99,5 +99,5 @@ def main():
         )
 
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     main()
